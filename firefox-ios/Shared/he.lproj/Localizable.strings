@@ -694,9 +694,6 @@
 /* Placeholder test for search box in logins list view. */
 "LoginsList.LoginsListSearchPlaceholder" = "סינון";
 
-/* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "כניסות שמורות תופענה כאן. אם שמרת את הכניסות שלך ב־Firefox על מכשיר אחר, יש להתחבר לחשבון ה־Firefox שלך.";
-
 /* Label shown when there are no logins to list. The placeholder will be replaced with the app name. */
 "LoginsList.NoLoginsFound.Description.v119" = "כניסות שמורות תופענה כאן. אם שמרת את הכניסות שלך ב־%@ על מכשיר אחר, יש להתחבר לחשבון שלך.";
 
@@ -1065,15 +1062,6 @@
 
 /* The confirmation button */
 "Search.ThirdPartyEngines.OK" = "אישור";
-
-/* Accessibility label for default search engine setting. */
-"SearchSettings.Accessibility.DefaultSearchEngine.v106" = "מנוע חיפוש ברירת מחדל";
-
-/* Title for default search engine settings section. */
-"SearchSettings.Title.DefaultSearchEngine.v106" = "מנוע חיפוש ברירת מחדל";
-
-/* Navigation title for search settings. */
-"SearchSettings.Title.Search.v106" = "חיפוש";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
 "Send a crash report so Mozilla can fix the problem?" = "האם לשלוח דיווח קריסה אל Mozilla כדי לסייע בתיקון הבעיה?";
@@ -1769,16 +1757,16 @@
 "Username" = "שם משתמש";
 
 /* The message of the error displayed to a user when they trying to change a wallpaper failed. */
-"Wallpaper.Change.Error.Body.v106" = "משהו השתבש עם הטפט הזה.";
+"Wallpaper.Change.Error.Body.v106" = "משהו השתבש עם תמונת הרקע הזו.";
 
 /* The title of the error displayed when changing wallpaper fails. */
-"Wallpaper.Change.Error.Title.v106" = "לא ניתן להחליף טפט";
+"Wallpaper.Change.Error.Title.v106" = "לא ניתן להחליף תמונת רקע";
 
 /* The message of the error displayed to a user when they try change a wallpaper that failed downloading. */
 "Wallpaper.Download.Error.Body.v106" = "משהו השתבש בהורדה שלך.";
 
 /* The title of the error displayed if download fails when changing a wallpaper. */
-"Wallpaper.Download.Error.Title.v106" = "לא ניתן להוריד טפט";
+"Wallpaper.Download.Error.Title.v106" = "לא ניתן להוריד תמונת רקע";
 
 /* An action for the error displayed to a user when they trying to change a wallpaper failed. */
 "Wallpaper.Error.Dismiss.v106" = "ביטול";
