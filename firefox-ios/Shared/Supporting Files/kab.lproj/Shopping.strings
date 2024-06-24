@@ -13,9 +13,6 @@
 /* Title label for the Fakespot Ad card. This is displayed above a product image, suggested as an alternative to the product reviewed. */
 "Shopping.AdCard.Title.v121" = "Ugar n tamawt";
 
-/* Description adjusted of the rating card displayed in the shopping review quality bottom sheet. */
-"Shopping.AdjustedRating.Description.v120" = "Yir alɣu yettwakkes";
-
 /* Accessibility label, associated to adjusted rating stars. %@ is a decimal value from 0 to 5 that will only use a tenth (example: 3.5). */
 "Shopping.AdjustedRating.StarsAccessibilityLabel.v120" = "%@ n yitran seg 5";
 
@@ -82,6 +79,9 @@
 /* Title for info card when the product is in analysis mode */
 "Shopping.InfoCard.ProgressAnalysis.Title.v120" = "Adenqed n tɣara n yilɣa";
 
+/* Title for info card when the product is in analysis mode. The placeholder represents the percentage of the analysis progress, ranging between 1 and 100. */
+"Shopping.InfoCard.ProgressAnalysis.Title.v123" = "Adenqed n tɣara n yilɣa (%@)";
+
 /* This title is displayed on the information card as a confirmation message after a user reports that a previously out-of-stock product is now available. It's meant to acknowledge the user's contribution and encourage community engagement by letting them know their report has been successfully submitted. */
 "Shopping.InfoCard.ReportSubmittedByCurrentUser.Title.v121" = "Tanemmirt ɣef tuzna n uneqqis!";
 
@@ -90,12 +90,6 @@
 
 /* Title for card displayed when a shopping product has not been analysed yet. */
 "Shopping.NoAnalysisCard.HeadlineLabel.Title.v120" = "Ulac talɣut ɣef yilɣa-a akka ar tura";
-
-/* Description for the card displayed when a shopping product has not been analysed yet but the analysis is in progress. */
-"Shopping.NoAnalysisCard.InProgress.Body.Label.v120" = "Aya yezmer ad yeṭṭef 60 tsinin.";
-
-/* Title for the card displayed when a shopping product has not been analysed yet but the analysis is in progress. */
-"Shopping.NoAnalysisCard.InProgress.Headline.Title.v120" = "Adenqed n tɣara n yilɣa";
 
 /* Text for the disclaimer that appears underneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replaced by the Fakespot app name. After the colon, what appears are two links, each on their own line. The first link is to a Privacy policy. The second link is to Terms of use. */
 "Shopping.OptInCard.Disclaimer.Text.v120" = "S ufran n “Ih, ɛreḍ-it” ad tqebleḍ tiwtilin-a n %@:";
@@ -145,11 +139,17 @@
 /* The title of the learn more button from How we determine review quality card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the Fakespot app name. */
 "Shopping.ReviewQualityCard.LearnMoreButton.Title.v120" = "Issin ugar ɣef wamek %@ yettguccul taɣara n wulɣu";
 
+/* Mixed reviews label from How we determine review quality card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.MixedReviews.Label.v120" = "Nettwali iwellihen sdukklen iwellihen inaflasen d yiwellihen arinaflasen";
+
 /* Accessibility label for the up chevron icon used to collapse or minimize the Settings Card within the shopping product review bottom sheet. */
 "Shopping.SettingsCard.Collapse.AccessibilityLabel.v120" = "Fneẓ takarḍa n yiɣewwaren";
 
 /* Accessibility label for the down chevron icon used to expand or show the details of the Settings Card within the shopping product review bottom sheet. */
 "Shopping.SettingsCard.Expand.AccessibilityLabel.v120" = "Senfel takarḍa n yiɣewwaren";
+
+/* Accessibility label for the recommended products label and switch, grouped together. The first placeholder is for the recommended products label, and the second placeholder is for the state of the switch: On/Off. */
+"Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityLabel.v123" = "%1$@, taqeffalt n ubeddel, %2$@.";
 
 /* Action title of the footer underneath the Settings Card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla. */
 "Shopping.SettingsCard.Footer.Action.v120" = "Amsenqad n tamawt yella-d s lmendad n %1$@ s %2$@.";
@@ -159,6 +159,12 @@
 
 /* Label of the switch from settings card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the app name. */
 "Shopping.SettingsCard.RecommendedProducts.Label.v120" = "Sken ifarisen yettuwellhen sɣur %@";
+
+/* Toggled Off accessibility switch value from Settings Card within the shopping product review bottom sheet. */
+"Shopping.SettingsCard.SwitchValueOff.AccessibilityLabel.v123" = "Yensa";
+
+/* Toggled On accessibility value, from Settings Card within the shopping product review bottom sheet. */
+"Shopping.SettingsCard.SwitchValueOn.AccessibilityLabel.v123" = "Yermed";
 
 /* Label of the button from settings card displayed in the shopping review quality bottom sheet. */
 "Shopping.SettingsCard.TurnOffButton.Title.v120" = "Sens Amsenqed n tamawin";
