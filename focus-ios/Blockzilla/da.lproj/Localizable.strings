@@ -77,7 +77,7 @@
 "Autocomplete.customUrlAdded" = "Ny brugerdefineret URL tilføjet.";
 
 /* Description for enabling or disabling the default list. The placeholder is replaced with the application name, which can be either Firefox Focus or Firefox Klar. */
-"Autocomplete.defaultDescriptoin" = "Aktiver for at få %@ til at autofuldføre over 450 populære URL'er i adresselinjen.";
+"Autocomplete.defaultDescriptoin" = "Aktiver for at få %@ til at autofuldføre over 450 populære URL'er i adressefeltet.";
 
 /* label describing URL Autocomplete as disabled */
 "Autocomplete.disabled" = "Deaktiveret";
@@ -257,7 +257,7 @@
 "SearchSuggestions.promptEnable" = "Ja";
 
 /* %@ is the name of the app (Focus / Klar). Label for search suggestions prompt message */
-"SearchSuggestions.promptMessage" = "For at kunne vise søgeforslag sender %@ dine indtastninger i søgefeltet til søgetjenesten.";
+"SearchSuggestions.promptMessage" = "For at kunne vise søgeforslag sender %@ dine indtastninger i adressefeltet til søgetjenesten.";
 
 /* Title for search suggestions prompt */
 "SearchSuggestions.promptTitle" = "Vis søgeforslag?";
@@ -274,11 +274,20 @@
 /* Button label for accepting Content blocker alert */
 "Settings.blockOtherYes2" = "Bloker indholdssporing";
 
+/* On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. */
+"Settings.DailyUsagePing.Message" = "Dette hjælper Mozilla med at vurdere antallet af aktive brugere.";
+
+/* On the Settings screen, this is the title text for a toggle which controls automatically sending daily usage ping. */
+"Settings.DailyUsagePing.Title" = "Ping for dagligt brug";
+
 /* Dark theme option in settings menu */
 "Settings.darkTheme" = "Mørkt";
 
+/* Description associated with the Crash Reports toggle on settings screen */
+"Settings.detailTextCrashReports.V2" = "Dette hjælper os med at diagnosticere og løse problemer med browseren.";
+
 /* Description associated to the Search Suggestions toggle on main screen. %@ is the app name (Focus/Klar) */
-"Settings.detailTextSearchSuggestion" = "%@ sender det indtastede i adresselinjen til den valgte søgetjeneste.";
+"Settings.detailTextSearchSuggestion" = "%@ sender det indtastede i adressefeltet til den valgte søgetjeneste.";
 
 /* Description associated to the Send Usage Data toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSendUsageData" = "Mozilla stræber efter kun at indsamle, hvad vi skal bruge for at kunne tilbyde og forbedre %@ for alle.";
@@ -381,6 +390,9 @@
 
 /* Label for the checkbox to toggle Social trackers */
 "Settings.toggleBlockSocial2" = "Sociale";
+
+/* Label for Crash Reports toggle on settings screen */
+"Settings.toggleCrashReports" = "Send automatisk fejlrapporter";
 
 /* Label for toggle on settings screen */
 "Settings.toggleFaceID" = "Brug Face ID til at låse appen op";
