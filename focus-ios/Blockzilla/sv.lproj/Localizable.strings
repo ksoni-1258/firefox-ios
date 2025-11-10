@@ -274,7 +274,7 @@
 /* Button label for accepting Content blocker alert */
 "Settings.blockOtherYes2" = "Blockera innehållsspårare";
 
-/* On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. Placeholder will be replaced the company name of Mozilla. */
+/* On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. */
 "Settings.DailyUsagePing.Message" = "Detta hjälper Mozilla att uppskatta antalet aktiva användare.";
 
 /* On the Settings screen, this is the title text for a toggle which controls automatically sending daily usage ping. */
@@ -425,7 +425,7 @@
 "Settings.trackingProtectionOn" = "På";
 
 /* Value for theme toggle in settings menu */
-"Settings.useSystemTheme" = "Använd systemets ljust/mörkt läge";
+"Settings.useSystemTheme" = "Använd systemets ljusa/mörka läge";
 
 /* Title for settings section to enable different Siri Shortcuts. */
 "Settinsg.siriShortcutsTitle" = "SIRI GENVÄGAR";
