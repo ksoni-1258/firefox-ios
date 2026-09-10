@@ -175,6 +175,9 @@
 /* Title for a link that explains what Mozilla means by Rollouts */
 "Settings.Rollouts.Link.v148" = "เรียนรู้เพิ่มเติม";
 
+/* A short description that explains that Mozilla may change features remotely. %@ is the app name (e.g. Firefox). */
+"Settings.Rollouts.Message.v148" = "ระหว่างการอัปเดต %@ จะปรับปรุงฟีเจอร์ การตอบสนอง และความเสถียร โดยการเปลี่ยนแปลงสามารถนำไปใช้จากระยะไกลได้";
+
 /* Label used as a toggle item in Settings. When this is off, the user is opting out of all rollouts. */
 "Settings.Rollouts.Title.v148" = "อนุญาตการปรับปรุงทางไกล";
 
@@ -200,10 +203,10 @@
 "Settings.Search.PageTitle.v121" = "ค้นหา";
 
 /* Description for `Show in Private Sessions` toggle, located in `Suggestions from Search Engines` section in the Search page in the Settings menu. */
-"Settings.Search.PrivateSession.Description.v125" = "แสดงคำแนะนำจากเครื่องมือค้นหาในวาระส่วนตัว";
+"Settings.Search.PrivateSession.Description.v125" = "แสดงคำแนะนำจากเครื่องมือค้นหาในเซสชันส่วนตัว";
 
 /* Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in `Suggestions from Search Engines` and `Address Bar - Firefox Suggest` sections in the Search page in the Settings menu. */
-"Settings.Search.PrivateSession.Setting.v124" = "แสดงในวาระส่วนตัว";
+"Settings.Search.PrivateSession.Setting.v124" = "แสดงในเซสชันส่วนตัว";
 
 /* Label for the `show search suggestions` setting, in the Search Settings page. */
 "Settings.Search.ShowSuggestions.v121" = "แสดงข้อเสนอแนะการค้นหา";
@@ -215,7 +218,7 @@
 "Settings.Search.Suggest.LearnAboutSuggestions.v124" = "เรียนรู้เพิ่มเติมเกี่ยวกับ Firefox Suggest";
 
 /* Description for `Show in Private Sessions` toggle, located in `Address Bar - Firefox Suggest` section in the Search page in the Settings menu. */
-"Settings.Search.Suggest.PrivateSession.Description.v125" = "แสดงคำแนะนำจาก Firefox Suggest ในวาระส่วนตัว";
+"Settings.Search.Suggest.PrivateSession.Description.v125" = "แสดงคำแนะนำจาก Firefox Suggest ในเซสชันส่วนตัว";
 
 /* In the Search page of the Settings menu, the title for the setting to enable search browsing history. */
 "Settings.Search.Suggest.SearchBrowsingHistory.Title.v124" = "ค้นหาประวัติการเรียกดู";
@@ -246,6 +249,9 @@
 
 /* A short description that explains that Mozilla is running studies */
 "Settings.Studies.Message.v136" = "ทดลองใช้คุณสมบัติและไอเดียต่างๆ ก่อนที่จะเผยแพร่ให้ทุกคนได้ใช้งานจริง";
+
+/* A short description that explains that Mozilla is running studies. %@ is the app name (e.g. Firefox). */
+"Settings.Studies.Message.v148" = "%@ จะสุ่มผู้ใช้งานเพื่อทดลองฟีเจอร์ ซึ่งช่วยยกระดับคุณภาพให้กับผู้ใช้ทุกคน";
 
 /* Label used as a toggle item in Settings. When this is off, the user is opting out of all studies. */
 "Settings.Studies.Title.v136" = "ติดตั้งและเรียกใช้การศึกษา";
